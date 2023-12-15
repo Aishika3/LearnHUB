@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useState } from 'react';
 import './App.css';
 import { Configuration, OpenAIApi } from 'openai';
@@ -5,16 +6,14 @@ import OptionSelection from './components/OptionSelection';
 import Translation from './components/Translation';
 import PdfPage from './components/PdfPage';
 import Navbar from './components/Navbar.jsx';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+import Footer from './components/Footer.jsx';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { arrayItems } from './AIOptions';
 
-// Login Page Component
 const LoginPage = ({ onLogin }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = () => {
-    // Perform authentication logic (you can replace this with your actual login logic)
-    // For simplicity, let's just set isLoggedIn to true for this example.
     setIsLoggedIn(true);
     onLogin();
   };
@@ -26,19 +25,16 @@ const LoginPage = ({ onLogin }) => {
   return (
     <div className="login-container">
       <h2>Login Page</h2>
-      <label>UserName-</label>
+      <label>UserName:</label>
       <input type="text"></input>
       <br />
-      <label>Password</label>
+      <label>Password:</label>
       <input type="password"></input>
       <br />
       <button onClick={handleLogin}>Login</button>
     </div>
   );
 };
-
-// Main App Component
-// ... (imports and components remain the same)
 
 function App() {
   const configuration = new Configuration({
@@ -94,6 +90,8 @@ function App() {
           />
           <Route path="/pdf" element={<PdfPage />} />
         </Routes>
+        {/* Include the Footer component */}
+        <Footer />
       </div>
     </Router>
   );

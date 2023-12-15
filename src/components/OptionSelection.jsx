@@ -1,4 +1,3 @@
-// OptionSelection.jsx
 import React from "react";
 import QandA from "../components/assests/img2.jpg";
 import GrammerCorrection from "../components/assests/img3.jpg";
@@ -11,38 +10,27 @@ import WeatherForecasting from "../components/assests/img9.jpg";
 const OptionSelection = ({ arrayItems, selectOption }) => {
   const handleOptionClick = (item) => {
     if (item.id === "Pdf") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://text-summariser-hp2paybrmsth37ognrimtl.streamlit.app/";
     }else if (item.id === "LanguageTrans") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://translatorforlanguage.netlify.app/";
     }
     else if (item.id === "grammarcorrection") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://grammarcorrection.netlify.app/";
     }  
-    //https://weatherforecastweek.netlify.app/
     else if (item.id === "weather") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://weatherforecastweek.netlify.app/";
     } 
     else if (item.id === "summary") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://notes2pdfgenerator.netlify.app/";
     } 
-    //https://2op9asp4kxzspdujdr8zxy.streamlit.app/
     else if (item.id === "q&a") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
     } else if (item.id === "explainCode") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
     } else if (item.id === "jstopy") {
-      // Set the selected option for further processing, if needed
       window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
     }
     else {
-      // Continue with the normal option selection
       selectOption(item);
     }
   };

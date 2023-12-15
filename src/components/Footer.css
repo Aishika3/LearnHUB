@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+    background-color: #020d16;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(13, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    color: #f8fafc;
+  }
+  
+  .footer-section h4 {
+    color: #f9feff;
+  }
+  
+  .footer-section p {
+    color: #9ba3ad;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #788eac;
+  }
+  
