@@ -30,6 +30,17 @@ const OptionSelection = ({ arrayItems, selectOption }) => {
       // Set the selected option for further processing, if needed
       window.location.href = "https://notes2pdfgenerator.netlify.app/";
     } 
+    //https://2op9asp4kxzspdujdr8zxy.streamlit.app/
+    else if (item.id === "q&a") {
+      // Set the selected option for further processing, if needed
+      window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
+    } else if (item.id === "explainCode") {
+      // Set the selected option for further processing, if needed
+      window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
+    } else if (item.id === "jstopy") {
+      // Set the selected option for further processing, if needed
+      window.location.href = "https://2op9asp4kxzspdujdr8zxy.streamlit.app/";
+    }
     else {
       // Continue with the normal option selection
       selectOption(item);
