@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  max-height: 600px;
+}
+
+.heading {
+  font-family: Poppins;
+}
+
+/* Your existing styles remain unchanged */
+
+.grid-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Display two items in each row **/
+  margin-top: 40px;
+  justify-content: space-evenly;
+  margin-left: 40px; /* Distribute items evenly in the row */
+}
+
+/* Your existing styles remain unchanged */
+
+
+.grid-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(222, 159, 159, 0.96);
+  max-width: 50%;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.grid-child h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 0px; /* Adjust margin between heading and image */
+}
+
+.grid-child p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 0px; /* Adjust margin between paragraph and image */
+}
+.grid-child img {
+  max-width: 80%; /* Make sure the image doesn't exceed the container width */
+  border-radius: 10px; /* Optional: Add border-radius to the image */
+  margin-bottom: 0px; /* Adjust the margin to decrease the space below the image */
+}
+
+.text-area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.action-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result-text {
+  font-family: Poppins;
+  font-size: 25px;
+  line-height: 2.5rem;
+}
+.navbar {
+  padding: 1rem;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* Your existing styles remain unchanged */
+
+/* Add these styles for light and dark mode */
+.light-mode {
+  background-color: #c2bfbf; /* Light mode background color */
+  color: #000; /* Light mode text color */
+  border-radius: 10px;
+}
+
+.dark-mode {
+  background-color: #0a0a0a; /* Dark mode background color */
+  color: #cccaca; /* Dark mode text color */
+  border-radius: 10px;
+}
+
+.grid-main > div {
+  background-color: #f8fafc; /* Default background color for grid items */
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .grid-main > div {
+  background-color: #000; /* Dark background color for grid items in light mode */
+  color: #cccaca; /* Light text color for grid items in light mode */
+}
+
+.dark-mode .grid-main > div {
+  background-color: #e2dddd; /* Light background color for grid items in dark mode */
+  color: #000; /* Dark text color for grid items in dark mode */
+}
+
+h3 {
+  color: #061114; /* Default text color for headings */
+}
+
+.light-mode h3 {
+  color: #fff; /* Light text color for headings in light mode */
+}
+
+.dark-mode h3 {
+  color: #000; /* Dark text color for headings in dark mode */
+}
+
+p {
+  color: #788eac; /* Default text color for paragraphs */
+}
+
+.light-mode p {
+  color: #fff; /* Light text color for paragraphs in light mode */
+}
+
+.dark-mode p {
+  color: #000; /* Dark text color for paragraphs in dark mode */
+}
+/* Add these styles for light and dark mode */
+.light-mode .navbar {
+  background-color: #c2bfbf; /* Light mode background color */
+  color: #000; /* Light mode text color */
+  border-radius: 10px;
+}
+
+.dark-mode .navbar {
+  background-color: #0a0a0a; /* Dark mode background color */
+  color: #cccaca; /* Dark mode text color */
+  border-radius: 10px;
+}
+
+/* Additional styles for the Navbar to center it */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* Add this style for the image inside grid-child */
+
+/* Your existing styles remain unchanged */
+
+

@@ -1,0 +1,111 @@
+/* Add these styles for the sliding round button */
+/* Add these styles for the sliding round button */
+/* Navbar.css */
+/* Updated styles to center the Navbar */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34; /* Set a background color for the entire page */
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px; /* Add margin to separate the switch from the heading */
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #b5bbc0;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #ebedef;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Additional styles for text alignment and color */
+  .toggle-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .toggle-text span {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+  }
+  
+  /* Additional styles for heading */
+  .heading {
+    margin-right: 10px; /* Add margin to separate the heading from the switch */
+    color: #fff;
+  }
+  /* Navbar.css */
+
+/* Add your existing styles for switch and text */
+
+/* Navbar.css */
+
+/* Add your existing styles for switch and text */
+
+.custom-button {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  border: 2px solid #000; /* Add a black border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer on hover */
+  margin-left: 10px; /* Add some margin to separate from other elements */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,24 @@
+/* PdfPage.css */
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .pdf-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-input {
+    width: 300px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 300px;
+  }
+  
