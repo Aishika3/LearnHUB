@@ -9,7 +9,7 @@ function Footer({ isDarkMode, onToggle }) {
       <div className="footer-content">
         <div className="footer-section">
           <h4>About Us</h4>
-          <p>EducationAI facilitates and enhances the learning experience,<br/>streamlining the educational process for users.</p>
+          <p>LearnHUB facilitates and enhances the learning experience,<br/>streamlining the educational process for users.</p>
         </div>
 
         <div className="footer-section">
@@ -21,7 +21,7 @@ function Footer({ isDarkMode, onToggle }) {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; EDUCATEAI LEARN WITH EASE</p>
+        <p>&copy; LearnHUB-EDUCATEAI</p>
       </div>
     </footer>
   );
