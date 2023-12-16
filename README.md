@@ -139,21 +139,21 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
 # Login Page
 ![App Screenshot](https://drive.google.com/uc?id=1yW-I9xQQWj1nvH8PuYAvuem_6y0QNkdb)
 # LearnHUB
-![App Screenshot](https://drive.google.com/file/d/1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif)
 
-![App Screenshot](https://drive.google.com/file/d/1aRFZ_kpvYpXHEahaDUzlQ8GMATvSazzQ/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1aRFZ_kpvYpXHEahaDUzlQ8GMATvSazzQ)
 # Text-Summariser
-![App Screenshot](https://drive.google.com/file/d/1NJOQYwj8uNjU1uozIveAlD0NVTtnMAWY/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1NJOQYwj8uNjU1uozIveAlD0NVTtnMAWY)
 # Language Translator
-![App Screenshot](https://drive.google.com/file/d/1VvgzIY6oK3SIQAZkjfTEeNXRFzGW8izl/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1VvgzIY6oK3SIQAZkjfTEeNXRFzGW8izl)
 # Grammar Correction
-![App Screenshot](https://drive.google.com/file/d/1gcOkVvdaLt9VC3reo004Ha5uRwgoPG6A/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1gcOkVvdaLt9VC3reo004Ha5uRwgoPG6A)
 # Weather Forecast
-![App Screenshot](https://drive.google.com/file/d/1IA736fiLAMWzoUDcd1w6Db9BB5YtxNPu/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1IA736fiLAMWzoUDcd1w6Db9BB5YtxNPu)
 # Notes to PDF Genarator 
-![App Screenshot](https://drive.google.com/file/d/1nnVTM3s0hjQvTAel2MYMf3wVStSG3MmJ/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1nnVTM3s0hjQvTAel2MYMf3wVStSG3MmJ)
 # Chat-Bot(Q&Ans,Code Explanation,Code Translator)
-![App Screenshot](https://drive.google.com/file/d/1LFyUowiKR5jIp8kyX7uVmwVVtk6DEAbn/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1LFyUowiKR5jIp8kyX7uVmwVVtk6DEAbn)
 
 ## Deployment
 
