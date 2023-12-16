@@ -137,7 +137,7 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
 ```
 ## Screenshots
 # Login Page
-![App Screenshot](https://drive.google.com/file/d/1yW-I9xQQWj1nvH8PuYAvuem_6y0QNkdb/view?usp=drive_link)
+![App Screenshot](https://drive.google.com/uc?id=1yW-I9xQQWj1nvH8PuYAvuem_6y0QNkdb)
 # LearnHUB
 ![App Screenshot](https://drive.google.com/file/d/1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif/view?usp=drive_link)
 
