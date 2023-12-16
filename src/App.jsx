@@ -91,7 +91,7 @@ function App() {
           <Route path="/pdf" element={<PdfPage />} />
         </Routes>
         {/* Include the Footer component */}
-        <Footer />
+        <Footer isDarkMode={isDarkMode} onToggle={() => setIsDarkMode(!isDarkMode)} />
       </div>
     </Router>
   );
