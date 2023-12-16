@@ -137,43 +137,6 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
 ```
 ## Deployment
 
-EducateAI
-│   .gitignore
-│   index.html
-│   package-lock.json
-│   package.json
-│   README.md
-│   vite.config.js
-│
-└───src
-    │   App.css
-    │   App.jsx
-    │   index.css
-    │   main.jsx
-    │   reportWebVitals.js
-    │
-    └───components
-        └───AIOptions
-        └───components
-            │   AuthPage.jsx
-            │   Footer.css
-            │   Footer.jsx
-            │   GoogleSigin.jsx
-            │   LoginPage.jsx
-            │   Navbar.css
-            │   Navbar.jsx
-            │   OptionSelection.jsx
-            │   PdfPage.css
-            │   PdfPage.jsx
-            │   PdfParser.jsx
-            │   TextSummary.jsx
-            │   Todo.css
-            │   Todo.jsx
-            │   Translation.css
-            │   Translation.jsx
-            │   utils.js
-
-
 To deploy this project run
 
 ```bash
