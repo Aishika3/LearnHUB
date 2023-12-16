@@ -135,4 +135,69 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
    npm install @emailjs/browser
 
 ```
+## Deployment
+
+EducateAI
+│   .gitignore
+│   index.html
+│   package-lock.json
+│   package.json
+│   README.md
+│   vite.config.js
+│
+└───src
+    │   App.css
+    │   App.jsx
+    │   index.css
+    │   main.jsx
+    │   reportWebVitals.js
+    │
+    └───components
+        └───AIOptions
+        └───components
+            │   AuthPage.jsx
+            │   Footer.css
+            │   Footer.jsx
+            │   GoogleSigin.jsx
+            │   LoginPage.jsx
+            │   Navbar.css
+            │   Navbar.jsx
+            │   OptionSelection.jsx
+            │   PdfPage.css
+            │   PdfPage.jsx
+            │   PdfParser.jsx
+            │   TextSummary.jsx
+            │   Todo.css
+            │   Todo.jsx
+            │   Translation.css
+            │   Translation.jsx
+            │   utils.js
+
+
+To deploy this project run
+
+```bash
+  npm run dev
+  npm run build
+```
+Sites which are already made and hosted used are displayed here with their respective github urls:-
+
+1.https://text-summariser-hp2paybrmsth37ognrimtl.streamlit.app/ and https://github.com/Aishika3/Text-summariser
+
+
+2.https://translatorforlanguage.netlify.app/ and https://github.com/Aishika3/Language_Translator
+
+
+3.https://grammarcorrection.netlify.app/ and https://github.com/Aishika3/GrammarCorrection
+
+
+4.https://weatherforecastweek.netlify.app/ and https://github.com/Aishika3/Weatherify
+
+
+5.https://notes2pdfgenerator.netlify.app/ and https://github.com/Aishika3/Notes2PDF-Generator
+
+
+6.https://2op9asp4kxzspdujdr8zxy.streamlit.app/ and https://github.com/Aishika3/bot
+
+
 
