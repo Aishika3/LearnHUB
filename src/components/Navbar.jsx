@@ -11,7 +11,7 @@ function Navbar({ isDarkMode, onToggle }) {
 
   return (
     <div className="navbar-container">
-      <h1 className="heading">EducateAI</h1>
+      <h1 className="heading">LearnHUB</h1>
       <div className={`navbar ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
         <label className="switch">
           <input type="checkbox" checked={isDarkMode} onChange={onToggle} />
