@@ -140,7 +140,6 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
 ![App Screenshot](https://drive.google.com/uc?id=1DOn9sEMX_obyLV7F9RHffyhnqW1zc438) 
 # LearnHUB
 ![App Screenshot](https://drive.google.com/uc?id=1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif)
-
 ![App Screenshot](https://drive.google.com/uc?id=1aRFZ_kpvYpXHEahaDUzlQ8GMATvSazzQ)
 # Text-Summariser
 ![App Screenshot](https://drive.google.com/uc?id=1NJOQYwj8uNjU1uozIveAlD0NVTtnMAWY)
