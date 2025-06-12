@@ -2,10 +2,7 @@
 
 LearnHub is a comprehensive educational multi-model chatbot designed to enhance the learning experience through various functionalities. Developed various bots and web pages, here bots were made using Streamlit, Python,leveraging Hugging Face models,various libraries . LearnHub offers a versatile set of features to cater to diverse learning needs.
 
-```
 ## Screenshots
-
-```bash
 
 # Login Page
 ![App Screenshot](https://drive.google.com/uc?id=1DOn9sEMX_obyLV7F9RHffyhnqW1zc438) 
