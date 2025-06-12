@@ -22,10 +22,8 @@ LearnHub is a comprehensive educational multi-model chatbot designed to enhance 
 # Chat-Bot(Q&Ans,Code Explanation,Code Translator)
 ![App Screenshot](https://drive.google.com/uc?id=1LFyUowiKR5jIp8kyX7uVmwVVtk6DEAbn)
 
-```
 
 # Various bots or features available:
-
 ```bash
 
 1. Q&A Assistance:
