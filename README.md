@@ -2,7 +2,35 @@
 
 LearnHub is a comprehensive educational multi-model chatbot designed to enhance the learning experience through various functionalities. Developed various bots and web pages, here bots were made using Streamlit, Python,leveraging Hugging Face models,various libraries . LearnHub offers a versatile set of features to cater to diverse learning needs.
 
+```
+## Screenshots
+
+```bash
+
+# Login Page
+![App Screenshot](https://drive.google.com/uc?id=1DOn9sEMX_obyLV7F9RHffyhnqW1zc438) 
+# LearnHUB
+![App Screenshot](https://drive.google.com/uc?id=1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif)
+![App Screenshot](https://drive.google.com/uc?id=1aRFZ_kpvYpXHEahaDUzlQ8GMATvSazzQ)
+# Text-Summariser
+![App Screenshot](https://drive.google.com/uc?id=1NJOQYwj8uNjU1uozIveAlD0NVTtnMAWY)
+# Language Translator
+![App Screenshot](https://drive.google.com/uc?id=1VvgzIY6oK3SIQAZkjfTEeNXRFzGW8izl)
+# Grammar Correction
+![App Screenshot](https://drive.google.com/uc?id=1gcOkVvdaLt9VC3reo004Ha5uRwgoPG6A)
+# Weather Forecast
+![App Screenshot](https://drive.google.com/uc?id=1IA736fiLAMWzoUDcd1w6Db9BB5YtxNPu)
+# Notes to PDF Genarator 
+![App Screenshot](https://drive.google.com/uc?id=1nnVTM3s0hjQvTAel2MYMf3wVStSG3MmJ)
+# Chat-Bot(Q&Ans,Code Explanation,Code Translator)
+![App Screenshot](https://drive.google.com/uc?id=1LFyUowiKR5jIp8kyX7uVmwVVtk6DEAbn)
+
+```
+
 # Various bots or features available:
+
+```bash
+
 1. Q&A Assistance:
 LearnHub provides a powerful Q&A module, allowing learners to seek solutions to miscellaneous questions. The chatbot, built using Streamlit and Python, utilizes Hugging Face models to access and deliver accurate answers promptly.
 
@@ -135,24 +163,6 @@ The Grammarly plugin is added to the CKEditor instance using the addPlugin metho
    npm install @emailjs/browser
 
 ```
-## Screenshots
-# Login Page
-![App Screenshot](https://drive.google.com/uc?id=1DOn9sEMX_obyLV7F9RHffyhnqW1zc438) 
-# LearnHUB
-![App Screenshot](https://drive.google.com/uc?id=1bsl2HR-6jlnfPjyVp6y3-yQwLxks_Wif)
-![App Screenshot](https://drive.google.com/uc?id=1aRFZ_kpvYpXHEahaDUzlQ8GMATvSazzQ)
-# Text-Summariser
-![App Screenshot](https://drive.google.com/uc?id=1NJOQYwj8uNjU1uozIveAlD0NVTtnMAWY)
-# Language Translator
-![App Screenshot](https://drive.google.com/uc?id=1VvgzIY6oK3SIQAZkjfTEeNXRFzGW8izl)
-# Grammar Correction
-![App Screenshot](https://drive.google.com/uc?id=1gcOkVvdaLt9VC3reo004Ha5uRwgoPG6A)
-# Weather Forecast
-![App Screenshot](https://drive.google.com/uc?id=1IA736fiLAMWzoUDcd1w6Db9BB5YtxNPu)
-# Notes to PDF Genarator 
-![App Screenshot](https://drive.google.com/uc?id=1nnVTM3s0hjQvTAel2MYMf3wVStSG3MmJ)
-# Chat-Bot(Q&Ans,Code Explanation,Code Translator)
-![App Screenshot](https://drive.google.com/uc?id=1LFyUowiKR5jIp8kyX7uVmwVVtk6DEAbn)
 
 ## Deployment
 
